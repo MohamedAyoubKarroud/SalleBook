@@ -85,3 +85,32 @@ section h2 {
  margin-bottom: 24 px;
  text-align: center;
 }
+/* Formulaires */
+.form-section {
+max-width : 600 px ;
+margin : 40 px auto ;
+padding : 0 20 px ;
+}
+.form-section h2 {
+color : #1a3a5c ;
+margin-bottom : 24 px ;
+}
+label {
+display : block ;
+font-weight : bold ;
+margin-top : 16 px ;
+margin-bottom : 6 px ;
+color : #1a3a5c ;
+}
+input , select , textarea {
+width : 100%;
+padding : 10 px 12 px ;
+border : 1 px solid #cccccc ;
+border-radius : 5 px ;
+font-size : 0.95 rem ;
+}
+input:focus , select:focus , textarea:focus {
+outline : none ;
+border-color : #1a3a5c ;
+box-shadow : 0 0 0 2 px rgba (26 , 58 , 92 , 0.15) ;
+}
